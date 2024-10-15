@@ -1,7 +1,7 @@
 # Steady-state-heat-conduction-modeling
-ADI, Matrix Thomas and Relaxation methods for solving 2D steady-state heat equation  
-results_def.ipynb - example of usage without internal conditions  
-results_inter_conds.ipynb - example of usage with internal conditions
+ADI, Matrix Thomas and Relaxation methods for solving 2D steady-state heat equation.  
+results_def.ipynb - example of usage without internal conditions,  
+results_inter_conds.ipynb - example of usage with internal conditions.
 
 Equation form:  
 $` P(x, y) \frac{\partial^2 u}{\partial x^2} + Q(x, y) \frac{\partial^2 u}{\partial y^2} + S(x, y) = f(x, y) `$, where:  
@@ -17,4 +17,4 @@ $` \delta_0 U(x, y_n) + \delta_1 \frac{\partial U}{\partial y} \Big|_{(x, y_n)} 
 
 Internal conditions:  
 $` U = \text{const}`$ on $`G_i, i = \overline{1,k}`$  
-$` G_i : [x_1, x_2] \times [y_1, y_2] `$
+$` G_i : [x_1, x_2] \times [y_1, y_2] `$.
