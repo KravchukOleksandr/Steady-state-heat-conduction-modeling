@@ -20,7 +20,7 @@ class Relaxation2D:
           Function S(x, y)
     3) f : callable
           Function f(x, y)
-    4) inner_conds : dict
+    4) inner_conds : list of dicts
         - 'bounds' - [(x_min, x_max), (y_min, y_max)] inner condition area
         - 'u_value' - inner condition value
     '''
