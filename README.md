@@ -1,5 +1,5 @@
 # Steady-state-heat-conduction-modeling
-ADI, Thomas and Relaxation methods for solving 2D steady-state heat equation  
+ADI, Matrix Thomas and Relaxation methods for solving 2D steady-state heat equation  
 
 Equation form:  
 $` P(x, y) \frac{\partial^2 u}{\partial x^2} + Q(x, y) \frac{\partial^2 u}{\partial y^2} + S(x, y) = f(x, y) `$, where:  
